@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixa</title>
+    <style>
+        h1 { /* Box Level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkslategray;
+            margin: 20px auto 40px auto;
+            padding: 10px;
+            outline: 5px dashed salmon;
+        }
+
+        a { /*Inline-Level*/
+            border: 10px solid red;
+            padding: 10px;
+        }
+        #Ferrari {
+            width: 200px;
+            height: 200px;
+            margin: 40px;
+            padding: 10px;
+            border: 10px solid red;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+    <p id="Ferrari"> <img src="https://cdn.discordapp.com/attachments/811384657941757973/1355755045378855032/GnI7CGIXQAAhiJJ.png?ex=67f00387&is=67eeb207&hm=3f411c30de8a4f3b26ec55666d4f6b39384b4d45e10199a4e806a873717bbaf0&" alt="Testando"></p>
+</body>
+</html>

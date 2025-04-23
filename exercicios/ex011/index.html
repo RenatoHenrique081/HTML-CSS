@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel"> 
+    </picture>
+
+    <h1>Aprendendo a colocar audios no site</h1>
+    <p>Aprendendo a colocar audios no site com HTML</p>
+    <audio src="midia/audio.opus"controls autoplay></audio>
+
+    <h2>Outras opções de audios</h2>
+    <audio preload="metadata"autoplay controls loop>
+        <source src="midia/audio.opus" type="audio/opus">
+    </audio> <!--Esse código não funcionou, acho que é pq o arquvio é "opus" se fosse MP3 funcionaria...-->
+</body>
+</html>

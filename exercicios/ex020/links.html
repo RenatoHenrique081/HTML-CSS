@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            #   = id
+            .   = class
+            :   = Pseudo-class
+            ::  = Pseudo-element
+             >   = Children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        a{
+            color: #ff0000;
+        }
+        a:visited {
+             color: rgb(0, 255, 85);
+        }
+        a:active {
+            color: yellow;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        .especial {
+            background-color: #f7aef1;
+        }
+        .especial::before {
+            content: '^';
+        }
+        .especial::after {
+            content: '+';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/renatohen15/" target="_blank" class="especial">Insta</a></li>
+            <li></li>
+        </ul>
+</body>
+</html>
