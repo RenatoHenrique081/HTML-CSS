@@ -67,6 +67,7 @@ main p {
     background-image: url(imagens/background001.jpg);
     background-size: 100% 100%;
     padding: 100px;
+    padding-left: 25px;
     margin: auto;
     color: white;
 }
@@ -75,6 +76,7 @@ main p {
     background-image: url(imagens/background002.jpg);
     background-size: 100% 100%;
     padding: 100px;
+    padding-left: 25px;
     margin: auto;
     color: white;
 }
