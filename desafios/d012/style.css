@@ -15,9 +15,16 @@
     src: url(https://fonts.googleapis.com/css2?family=Handlee&display=swap);
 }
 
+
+
 * {
     margin: 0px;
     line-height: 1.2em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
@@ -50,7 +57,30 @@ header a:hover {
     text-decoration: underline;
 }
 
-main p {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+section p {
     font-family: 'Handlee';
     font-weight: bold;
     font-size: 40px;
@@ -59,7 +89,7 @@ main p {
     padding: 10px;
 }
 
-.joaninha {
+.imagem {
     background-image: url(imagens/background001.jpg);
     background-size: 100% 100%;
     padding: 100px;
@@ -68,7 +98,7 @@ main p {
     color: white;
 }
 
-.Papeis {
+.imagem {
     background-image: url(imagens/background002.jpg);
     background-size: 100% 100%;
     padding: 100px;
