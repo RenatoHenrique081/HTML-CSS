@@ -22,12 +22,20 @@
         table {
             border-collapse: collapse;
             width: 500px;
+            position: relative;
         }
 
         thead, tfoot {
             background-color: rgb(44, 44, 44);
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(44, 44, 44);
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -187,7 +195,6 @@
             </tr>
         </tfoot>
     </table>
-
 
 </body>
 </html>
